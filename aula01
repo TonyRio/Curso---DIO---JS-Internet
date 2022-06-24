@@ -1,0 +1,7 @@
+let fruta =[ {nome:"maca", cor:"vermelha"}, {nome: "uva", cor: "roxa"}]
+//let lista  = ["maca","pera","uva","limao"]
+//lista.push("abacate")
+//lista.pop("uva")
+//console.log(lista.join(" - "))
+//console.log(lista)
+console.log(fruta[1].nome)
