@@ -9,6 +9,18 @@ function redirecionar(){
     //location.href ="https://globallabs.academy/"
 }
 
+function trocar(elemento){
+    document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse"
+    elemento.innerHTML = "obrigado por passar o mouse"
+    //alert("trocar texto")
+}
+function voltar(elemento){
+    document.getElementById("mousemove").innerHTML = "passe o mouse aqui"
+    elemento.innerHTML = "Passe o Mouse aqui"
+}
+function load(){
+    alert("Lendo...........aqui")
+}
 /*function soma(n1,n2){
     return n1+n2
 }
