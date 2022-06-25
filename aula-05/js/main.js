@@ -1,4 +1,15 @@
-function soma(n1,n2){
+function clicou() {
+    //alert("obrigado por clicar !!")
+    document.getElementById("agradecimento").innerHTML = "Valeu por <b>clicar</b>"
+    //alert("valeu")
+    
+}
+function redirecionar(){
+    open("https://globallabs.academy/")
+    //location.href ="https://globallabs.academy/"
+}
+
+/*function soma(n1,n2){
     return n1+n2
 }
 
