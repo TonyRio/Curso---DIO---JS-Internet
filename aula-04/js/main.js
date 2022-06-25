@@ -1,11 +1,21 @@
-let nome= "tony gama"
-let idade =53
-let idade2 =10
-let frase="O japao e o melhor time do mundo"
-//alert(`bem vindo ${nome} que tem a idade de ${idade} anos`)
-console.log(nome)
-console.log(idade)
-console.log(frase.replace("japao", "Brasil"))
-//alert(frase.replace("japao", "Brazil"))
-alert(frase.toUpperCase())
+function soma(n1,n2){
+    return n1+n2
+}
 
+function validaIdade(idade){
+    let validar
+    if (idade >= 18){
+        validar =true}
+    else{
+        validar = false
+    }
+    return validar
+}
+
+let idade = prompt("Qual sua idade ? :")
+alert(validaIdade(idade))
+/*function setReplace(frase, nome, novo_nome){
+return frase.replace(nome, novo_nome)
+}
+alert(soma(5,10))
+alert(setReplace("vai japao", "japao", "Brasil"))*/
